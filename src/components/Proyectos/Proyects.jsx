@@ -31,7 +31,7 @@ const Projects = () => {
                 <div className="projects-container">
                     <div className="projects-inner">
                         <h1 className="projects-title"><span className="projects-span">Proyectos</span> desarrollados<span className="projects-span">.</span></h1>
-                        <p className="projects-text">Estos son los últimos proyectos que fui desarrollando.</p>
+                        
                     </div>
                 </div>
                 <div className="card-grid">
