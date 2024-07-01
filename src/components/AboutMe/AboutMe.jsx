@@ -1,5 +1,5 @@
 import React from "react";
-import TextAboutMe from "./textAboutMe";
+import TextAboutMe from "./TextAboutMe";
 import "../AboutMe/aboutmeStyles.css"
 
 const AboutMe = () => {
