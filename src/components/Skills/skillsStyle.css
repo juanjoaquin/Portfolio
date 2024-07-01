@@ -1,0 +1,288 @@
+.skills-section {
+    margin-top: 20px;
+    padding-left: 15px;
+    background-image: url(../../assets/images/stars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.h1-skills {
+    color: #ffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-align: start;
+}
+
+.weigth {
+    font-weight: 600;
+    color: #78ecd3;
+}
+
+.p-skills{ 
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(235, 235, 235);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: start;
+    padding-right: 15px;
+    line-height: 1.4;
+
+}
+
+.all-cards-container {
+    flex-direction: column;
+
+}
+
+
+.skills-card-container {
+    width: 22%;
+    overflow: hidden;
+    background: #5CD2B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #5CD2B9, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0 auto;
+    transition: 0.3s;
+    animation: ease-in-out;
+    border-radius: 0.2rem;
+    margin-top: 20px;
+}
+
+
+.skills-gif {
+    text-align: center;
+}
+
+.skills-gif img {
+    overflow: hidden;
+    width:  90%; 
+} 
+
+.css-png {
+    max-width: 300px;
+}
+
+.css-png-1 {
+    width: 500px;
+}
+
+.card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+.skills-content {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.skills-content h3 {
+    font-size: 15px;
+}
+
+.other-skills {
+    color: rgb(219, 219, 219);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .skills-section {
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+    
+    .h1-skills {
+        color: #ffff;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: start;
+    }
+    
+    .weigth {
+        font-weight: 600;
+        color: #78ecd3;
+    }
+    
+    .p-skills{ 
+        font-size: 19px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(235, 235, 235);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: start;
+        padding-right: 15px;
+    }
+    
+    .all-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .skills-card-container {
+        width: 32%;
+        overflow: hidden;
+        background: #5CD2B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5CD2B9, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0 auto;
+        transition: 0.3s;
+        animation: ease-in-out;
+        border-radius: 0.2rem;
+        margin-top: 20px;
+        
+    }
+
+    
+    .skills-gif {
+        text-align: center;
+    }
+    
+    .skills-gif img {
+        overflow: hidden;
+        width:  90%; 
+    } 
+    
+    .css-png {
+        max-width: 300px;
+    }
+    
+    .css-png-1 {
+        width: 500px;
+    }
+    
+    .card-content {
+        margin: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .skills-content {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    .skills-content h3 {
+        font-size: 15px;
+    }
+    
+    .other-skills {
+        color: rgb(219, 219, 219);
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+        grid-column: span 2;
+        text-align: center; 
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills-section {
+        margin-top: 20px;
+        padding-left: 15px; 
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .h1-skills {
+        color: #ffff;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: start;
+    }
+    
+    .weigth {
+        font-weight: 600;
+        color: #78ecd3;
+    }
+    
+    .p-skills{ 
+        font-size: 19px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(235, 235, 235);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: start;
+        padding-right: 15px;
+    }
+    
+    .all-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .skills-card-container {
+        width: 32%;
+        overflow: hidden;
+        background: #5CD2B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5CD2B9, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0 auto;
+        transition: 0.3s;
+        animation: ease-in-out;
+        border-radius: 0.2rem;
+        margin-top: 20px;
+        
+    }
+
+    
+    .skills-gif {
+        text-align: center;
+    }
+    
+    .skills-gif img {
+        overflow: hidden;
+        width:  90%; 
+    } 
+    
+    .css-png {
+        max-width: 300px;
+    }
+    
+    .css-png-1 {
+        width: 500px;
+    }
+    
+    .card-content {
+        margin: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .skills-content {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    .skills-content h3 {
+        font-size: 15px;
+    }
+    
+    .other-skills {
+        color: rgb(219, 219, 219);
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+        grid-column: span 2;
+        text-align: center; 
+        margin-top: 20px;
+    }
+}

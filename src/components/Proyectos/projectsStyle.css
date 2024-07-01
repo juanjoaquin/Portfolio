@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-projects {
+    margin-top: 20px;
+    background-image: url(../../assets/images/stars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projects-container {
+    flex-direction: column;
+    padding-left: 15px;
+
+}
+
+.projects-title {
+    color: #ffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-align: start;
+
+}
+
+.projects-span {
+    color: #5CD2B9;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.projects-inner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects-text {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(235, 235, 235);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+.card-container {
+    width: 79%;
+    overflow: hidden;
+    background: #5CD2B9;
+    background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);
+    background: linear-gradient(to bottom, #5CD2B9, #000000);
+    transition: 0.3s;
+    animation: ease-in-out;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+}
+
+.card-container-2 {
+    width: 79%;
+    overflow: hidden;
+    background: #5CD2B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5CD2B9, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0 auto;
+
+    border-radius: 0.2rem;
+    margin-top: 20px;
+}
+
+/* .card-container:hover {
+    border: 4px white solid;
+} */
+
+.gif-container {
+    text-align: center;
+}
+
+.gif-container img {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    color: #5CD2B9;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-body p{
+    color: #cacaca;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.btn-card {
+    padding: 5px;
+    width: 125px;
+    background-color: #afd6ce1a;
+    color: white;
+    border: #5CD2B9 1px solid;
+    border-radius: 0.2rem;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+}
+
+.bi-jsx {
+    color: rgb(210, 210, 214);
+    font-size: 20px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .section-projects {
+        margin-top: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+
+    }
+
+    .projects-title {
+        color: #ffff;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: start;
+
+    }
+
+    .projects-span {
+        color: #5CD2B9;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+
+    .projects-inner {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .projects-text {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(235, 235, 235);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+
+
+    .card-container {
+        width: 79%;
+        overflow: hidden;
+        background: #5CD2B9;
+        background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);
+        background: linear-gradient(to bottom, #5CD2B9, #000000);
+
+        margin: 0 auto;
+        border-radius: 0.2rem;
+
+    }
+
+    .card-container-2 {
+        width: 79%;
+        overflow: hidden;
+        background: #5CD2B9;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #5CD2B9, #000000);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0 auto;
+
+        border-radius: 0.2rem;
+        margin-top: 20px;
+    }
+
+    /* .card-container:hover {
+        border: 4px white solid;
+    } */
+
+    .gif-container {
+        text-align: center;
+    }
+
+    .gif-container img {
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .card-content {
+        margin: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: #5CD2B9;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .card-body {
+        color: #5CD2B9;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .btn-card {
+        padding: 10px;
+        width: 150px;
+        background-color: #afd6ce1a;
+        color: white;
+        border: #5CD2B9 1px solid;
+        border-radius: 0.2rem;
+        font-family: 'Manrope', sans-serif;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+    }
+    .btn-card:hover {
+        background-color: rgba(112, 182, 155, 0.534);
+    }
+
+    .bi-jsx {
+        color: rgb(210, 210, 214);
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-projects {
+        /* margin-top: 120px;
+        max-width: 100%; */
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+
+    }
+
+    .projects-title {
+        color: #ffff;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: start;
+
+    }
+
+    .projects-span {
+        color: #5CD2B9;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+
+    .projects-inner {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .projects-text {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(235, 235, 235);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    .card-container {
+        width: 79%;
+        overflow: hidden;
+        background: #5CD2B9;
+        background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);
+        background: linear-gradient(to bottom, #5CD2B9, #000000);
+        transition: 0.3s;
+        animation: ease-in-out;
+        margin: 0 auto;
+        border-radius: 0.2rem;
+        /* margin-top: 20px;  */
+
+    }
+
+    .card-container-2 {
+        width: 79%;
+        overflow: hidden;
+        background: #5CD2B9;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #5CD2B9, #000000);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #5CD2B9, #000000);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0 auto;
+
+        border-radius: 0.2rem;
+        /* margin-top: 20px;  */
+    }
+
+    .card-container:hover, .card-container-2:hover {
+        border: 1px #5CD2B9 solid;
+        transition: 0.6s;
+        animation: ease-in-out;
+    }
+
+    .gif-container {
+        text-align: center;
+    }
+
+    .gif-container img {
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .card-content {
+        margin: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .card-title {
+        margin-bottom: 0.5rem;
+        color: #5CD2B9;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .card-body {
+        color: #5CD2B9;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .btn-card {
+        padding: 10px;
+        width: 150px;
+        background-color: #afd6ce1a;
+        color: white;
+        border: #5CD2B9 1px solid;
+        border-radius: 0.2rem;
+        font-family: 'Manrope', sans-serif;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .bi-jsx {
+        color: rgb(210, 210, 214);
+        font-size: 20px;
+
+    }
+}

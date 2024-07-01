@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.socials-container {
+    margin-top: 15px;
+    background-image: url(../../assets/images/stars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.socials-background {
+    background-color: #4d4d4d; 
+    padding: 20px; 
+    margin: 40px; 
+    border-radius: 0.5rem;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    
+}
+
+.text-socials {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    .socials-container {
+        margin-top: 15px;
+        background-image: url(../../assets/images/stars.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .socials-background {
+        background-color: #4d4d4d; 
+        padding: 20px; 
+        margin: 40px; 
+        border-radius: 0.5rem;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .text-socials {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(228, 228, 228);
+        cursor: pointer;
+    }
+    a {
+        list-style: none;
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .socials-container {
+        flex-direction: column;
+        margin: 0 auto;
+        background-image: url(../../assets/images/stars.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1024px;
+    }
+    
+    .socials-background {
+        background-color: #4d4d4d; 
+        padding: 20px; 
+        margin: 40px; 
+        border-radius: 0.5rem;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 25px;
+
+    }
+    
+    .text-socials {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(228, 228, 228);
+        cursor: pointer;
+    }
+    a {
+        list-style: none;
+        text-decoration: none;
+        outline: none;
+    }
+}

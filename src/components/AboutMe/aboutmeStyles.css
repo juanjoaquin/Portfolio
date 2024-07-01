@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutme-section {
+    margin-top: 20px;
+    background-image: url(../../assets/images/stars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-container {
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.aboutme-inner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutme-title {
+    color: #ffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-align: start;
+}
+
+.aboutme-span {
+    color: #5CD2B9;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.aboutme-text {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(235, 235, 235);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: start;
+    padding-right: 15px;
+    line-height: 1.3;
+}
+
+@media screen and (min-width:768px) {
+    .aboutme-section {
+        margin-top: 20px;
+
+    }
+    
+    .title-container {
+        flex-direction: column;
+    }
+    
+    .aboutme-inner {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .aboutme-title {
+        color: #ffff;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: start;
+    }
+    
+    .aboutme-span {
+        color: #5CD2B9;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+    
+    
+    .aboutme-text {
+        font-size: 19px;
+        font-family: 'Montserrat', sans-serif;
+        color:  rgb(235, 235, 235);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: start;
+        padding-right: 15px;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .aboutme-section {
+
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+    
+    .title-container {
+        flex-direction: column;
+        padding: 0 15px; /* Agrego un poco de padding horizontal en dispositivos móviles */
+    }
+    
+    .aboutme-inner {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .aboutme-title {
+        color: #ffff;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        text-align: start;
+    }
+    
+    .aboutme-span {
+        color: #5CD2B9;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+    
+    
+    .aboutme-text {
+        font-size: 19px;
+        font-family: 'Montserrat', sans-serif;
+        color:  rgb(235, 235, 235);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: start;
+        padding-right: 15px;
+        line-height: 1.4;
+    }
+}
