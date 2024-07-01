@@ -15,7 +15,7 @@ const SixCard = ({gif, title, cardBody}) => {
                         <h3>{title}</h3>
                     </div>
                     <div className="card-body">
-                        <p>{cardBody} <i class="bi-jsx bi-filetype-html"></i> <i class="bi-jsx bi-filetype-css"></i></p>
+                        <p>{cardBody}</p>
                     </div>
                     <div className="btn">
                     <Link to="https://github.com/juanjoaquin/Express-API-RestOne-reupload" target="_blank"><button className="btn-card">Ver más</button></Link>

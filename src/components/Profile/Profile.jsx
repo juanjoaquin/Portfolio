@@ -11,14 +11,14 @@ const Profile = () => {
                     <div className="sobre-mi-inner">
                         <h1 className="sobre-mi-title">
                             Hola, soy <span className="span-name">Juan</span>, <br />
-                            Desarrollador Front & Back End<span className="span-name">.</span>
+                            Desarrollador Frontend<span className="span-name">.</span>
                         </h1>
                         <div className="profile-general">
                             <div className="profile-line"></div>
                             <RouterLink to="https://github.com/juanjoaquin">
                                 <i className="bi-gi bi-github"></i>
                             </RouterLink>
-                            <RouterLink to="https://www.linkedin.com/in/juan-manuel-joaquin-3a55a5224/">
+                            <RouterLink to="https://www.linkedin.com/in/juan-manuel-joaquin/">
                                 <i className="bi-li bi-linkedin"></i>
                             </RouterLink>
 

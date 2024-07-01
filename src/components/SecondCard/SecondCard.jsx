@@ -16,10 +16,16 @@ const SecondCard = ({title, gif, cardBody}) => {
                         <h3>{title}</h3>
                     </div>
                     <div className="card-body">
-                        <p>{cardBody} </p>
+                        <p>{cardBody} </p> 
+
+                        <Link to="https://github.com/juanjoaquin/React-bootcamp-reupload">
+                                <i className="bi-gi bi-github"></i>
+                            </Link>
+                        
                     </div>
+
                     <div className="btn">
-                    <Link to="https://github.com/juanjoaquin/React-bootcamp-reupload" target="_blank"><button className="btn-card">Ver más</button></Link></div>
+                    <Link to="https://bootcamp-cursos.netlify.app/" target="_blank"><button className="btn-card">Ver más</button></Link></div>
                 </div>
             </div>
         </>

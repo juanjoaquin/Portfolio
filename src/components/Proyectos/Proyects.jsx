@@ -65,8 +65,6 @@ const Projects = () => {
                         cardBody="Hecho con: React, Laravel y MySQL"
                     />
 
-
-
                     <ThirdCard
                         title="App de agénda médica"
                         gif={gif3}

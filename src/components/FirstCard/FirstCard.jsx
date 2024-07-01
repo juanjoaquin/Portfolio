@@ -17,11 +17,13 @@ const FirstCard = ({title, gif, cardBody}) => {
                         </div>
                         <div className="card-body">
                             <p>{cardBody}</p>
-                            
+                            <Link to="https://github.com/juanjoaquin/PF--Joaquin">
+                                <i className="bi-gi bi-github"></i>
+                            </Link>
                         </div>
                         <div className="btn">
                         
-                        <Link to="https://github.com/juanjoaquin/PF--Joaquin" target="_blank"><button className="btn-card">Ver más</button></Link></div>
+                        <Link to="https://commerce-firebase-react.netlify.app/" target="_blank"><button className="btn-card">Ver más</button></Link></div>
                         </div>
                     </div>
                 
