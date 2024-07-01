@@ -2,7 +2,7 @@ import React from "react";
 
 const TextAboutMe = () => {
     return (
-        <>
+       
         <div>
         <p className="aboutme-text">Me llamo Juan Manuel Joaquin
                 Estudié tres años de profesorado de historia (dando única importancia al estudio), pero me di cuenta que buscaba otra cosa. 
@@ -11,7 +11,7 @@ const TextAboutMe = () => {
                 Arranque estudiando frontend, aúnque con el paso del tiempo me empezo a gustar el backend.</p>
         </div>
 
-        </>
+       
     );
 };
 
